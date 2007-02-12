@@ -1,5 +1,5 @@
 Summary:	Arrayprobe - reporting the status of HP/Compaq array controller
-Summary(pl):	Arrayprobe - informowanie o stanie kontrolerów macierzowych HP/Compaq
+Summary(pl.UTF-8):   Arrayprobe - informowanie o stanie kontrolerÃ³w macierzowych HP/Compaq
 Name:		arrayprobe
 Version:	2.0
 Release:	0.1
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Arrayprobe is a Linux commandline utility that reports the status of a
 HP/Compaq array controller.
 
-%description -l pl
-Arrayprobe to linuksowe narzêdzie dzia³aj±ce z linii poleceñ
-informuj±ce o stanie kontrolerów macierzowych HP/Compaq.
+%description -l pl.UTF-8
+Arrayprobe to linuksowe narzÄ™dzie dziaÅ‚ajÄ…ce z linii poleceÅ„
+informujÄ…ce o stanie kontrolerÃ³w macierzowych HP/Compaq.
 
 %prep
 %setup -q
