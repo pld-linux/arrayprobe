@@ -2,12 +2,13 @@ Summary:	Arrayprobe - reporting the status of HP/Compaq array controller
 Summary(pl.UTF-8):	Arrayprobe - informowanie o stanie kontrolerów macierzowych HP/Compaq
 Name:		arrayprobe
 Version:	2.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://www.strocamp.net/opensource/compaq/downloads/%{name}-%{version}.tar.gz
 # Source0-md5:	7300f24a712265fd7430c6b48bd1dd75
 Patch0:		%{name}-headers.patch
+Patch1:		%{name}-newline.patch
 URL:		http://www.strocamp.net/opensource/arrayprobe.php
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
@@ -24,6 +25,7 @@ informujące o stanie kontrolerów macierzowych HP/Compaq.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__aclocal}
